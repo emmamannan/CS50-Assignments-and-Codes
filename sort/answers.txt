@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: Takes the least amount of time/ steps to sort sorted sets (n).
+
+sort2 uses: merge sort
+
+How do you know?: Takes longer than bubble sort but less time than selection sort to sort sorted sets (nlogn).
+
+sort3 uses: selection sort
+
+How do you know?: Takes the longest to sort sorted sets (n squared).

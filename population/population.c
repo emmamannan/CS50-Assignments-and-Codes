@@ -1,0 +1,37 @@
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    // TODO: Prompt for start size, n
+
+    int n;
+    do
+    {
+        n = get_int("Start size: ");
+    }
+    while (n < 9);
+
+    // TODO: Prompt for end size, m
+
+    int m;
+    do
+    {
+        m = get_int("End size: ");
+    }
+    while (m < n);
+
+    // TODO: Calculate number of years (y) until we reach threshold
+
+    // Calculate number of years (y) until we reach threshold
+
+    int y = 0;
+    while (n < m)
+    {
+        n = n + (n / 3) - (n / 4);
+        y++;
+    }
+
+    // TODO: Print number of years
+    printf("Years: %i\n", y);
+}
